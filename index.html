@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form id="form" class="pl-28 py-10 flex gap-5 max-[750px]:pl-0 max-[750px]:justify-center max-[560px]:px-2">
+            <input id="addName" type="text" autocomplete="off" placeholder="Name"
+                class="w-full max-w-[200px] pl-5 py-3 shadow-xl rounded-xl border border-[#B9B9B9] outline-none" />
+            <input id="addNum" autocomplete="off" type="text" placeholder="Number"
+                class="w-full max-w-[200px] pl-5 py-3 shadow-xl rounded-xl border border-[#B9B9B9] outline-none" />
+            <button id="addBtn" class="cursor-pointer bg-[#423CF2] rounded-xl px-3 shadow-xl text-white">
+                Add Contact
+            </button>
+        </form>
+
+        <div id="containerList" class="px-28 max-[750px]:px-10 max-[500px]:pl-[4px] mt-5 mb-16 flex flex-col gap-6">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+
+</html>
